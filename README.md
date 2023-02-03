@@ -19,7 +19,6 @@ The following is a list of libraries and tools to improve the over all experienc
 - sudo apt install gnome-tweaks 	
 - sudo apt install gnome-shell-extension-manager
 # Install Mozilla team firefox
-# If installes first remove firefox from the system
 - sudo apt remove firefox 	
 - sudo snap remove --purge firefox
 # Add the repository for Mozilla Team
@@ -39,3 +38,12 @@ The following is a list of libraries and tools to improve the over all experienc
 
 - sudo apt update 	
 - sudo apt install firefox
+
+# ZSH Shell
+- sudo apt update && sudo apt dist-upgrade -y
+- sudo apt install build-essential curl file git
+- sudo apt install zsh
+- sudo apt install zsh && sudo dpkg-reconfigure dash && sudo reboot
+- sudo apt install git-core curl fonts-powerline
+- sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+- Visit this site for plugins https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins
