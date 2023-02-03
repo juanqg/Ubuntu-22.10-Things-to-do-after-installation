@@ -47,3 +47,13 @@ The following is a list of libraries and tools to improve the over all experienc
 - sudo apt install git-core curl fonts-powerline
 - sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 - Visit this site for plugins https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins
+  
+# ColorLS
+- sudo apt install ruby ruby-dev
+- git clone https://github.com/ryanoasis/nerd-fonts.git
+- cd nerd-fonts
+- ./install.sh
+- git clone https://github.com/athityakumar/colorls.git
+- cd colorls
+- sudo gem install colorls
+
